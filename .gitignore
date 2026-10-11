@@ -220,4 +220,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # For this script
-Outputs/
+TextureClothingMaker/Outputs/
