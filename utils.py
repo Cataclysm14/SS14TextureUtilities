@@ -1,3 +1,4 @@
+# Centralized place to store the utility functions.
 import os
 import cv2
 import numpy as np
