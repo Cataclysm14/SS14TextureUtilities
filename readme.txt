@@ -1,1 +1,1 @@
-add any camo you'd like to see as the templates, then find the results in the Outputs folder.
+Various utilities for SS14, random shit i make in python for fun mostly ngl.
