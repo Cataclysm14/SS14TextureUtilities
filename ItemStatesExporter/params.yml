@@ -1,0 +1,198 @@
+- AK-74:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AKS-74U:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- RPK-74:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AK-74M:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AKM:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- RPK:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AKS-74:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AKMS:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
+- AS-VAL:
+  - icon: 
+    - size: 64,32
+    - dir: false
+  - inhand-left:
+    - size: 32,32
+    - dir: true
+  - inhand-right:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-left:
+    - size: 32,32
+    - dir: true
+  - wielded-inhand-right:
+    - size: 32,32
+    - dir: true
+  - equipped-SLINGFRONT:
+    - size: 64,32
+    - dir: true
+  - equipped-SUITSTORAGE:
+    - size: 64,32
+    - dir: true
