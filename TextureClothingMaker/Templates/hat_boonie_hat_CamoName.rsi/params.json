@@ -1,0 +1,9 @@
+{
+  "type":"HELMET",
+  "path":"Head/Hats/HatsCombat/BoonieHats",
+  "iconOffset":[15,11],
+  "inhandLeftOffset": [[21,21,"back"],[46,21,"back"],[18,52,"back"],[50,52,"back"]],
+  "inhandRightOffset": [[11,22,"back"],[54,21,"back"],[15,53,"back"],[49,53,"back"]],
+  "frontAnchor": [15,2],
+  "backAnchor": [15,1]
+}

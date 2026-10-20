@@ -1,0 +1,9 @@
+{
+  "type":"INNERCLOTHING",
+  "path":"Shirt/ShirtsCombat",
+  "iconOffset":[15,11],
+  "inhandLeftOffset": [[22,19,"front"],[40,19,"back"],[49,49,"back"]],
+  "inhandRightOffset": [[10,19,"front"],[55,19,"back"],[13,49,"back"]],
+  "frontAnchor": [15,11],
+  "backAnchor": [15,11]
+}

@@ -1,0 +1,9 @@
+{
+  "type":"PANTS",
+  "path":"Pants/PantsCombat",
+  "iconOffset":[15,12],
+  "inhandLeftOffset": [[21,19,"front"],[41,19,"back"],[49,49,"back"]],
+  "inhandRightOffset": [[10,19,"front"],[54,19,"back"],[14,49,"back"]],
+  "frontAnchor": [15,21],
+  "backAnchor": [15,21]
+}

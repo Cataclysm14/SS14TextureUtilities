@@ -1,0 +1,10 @@
+{
+  "type":"BELT",
+  "path":"Belt/CombatRigs",
+  "iconOffset":[15,11],
+  "inhandLeftOffset": [[22,19,"both"],[40,19,"both"],[20,49,"both"],[49,50,"both"]],
+  "inhandRightOffset": [[40,19,"both"],[22,19,"both"],[49,50,"both"],[20,49,"both"]],
+  "frontAnchor": [15,10],
+  "backAnchor": [15,10],
+  "whitelistedCamos":["M81","OCP","UCP"]
+}
