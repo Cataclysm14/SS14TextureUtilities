@@ -66,6 +66,20 @@ def toPascalCase(string):
 def strToCoords(string):
     return (int(string.split(",")[0]),int(string.split(",")[1]))
 
+ScrubbedColors=(
+(255,0,143,255),#head
+(255,101,0,255),#torso
+(0,255,0,255),#Larm
+(255,192,72,255),#Lhand
+(144,68,255,255),#Rarm
+(0,239,255,255),#Rhand
+(255,0,0,255),#Lleg
+(255,255,0,255),#Lfoot
+(216,171,255,255),#Rleg
+(0,76,255,255),#Rfoot
+(255,0,0,255),#Legacy
+)
+
 Sheet = Image.open("Items.png")
 
 Parameters = yaml.load(open("params.yml"),Loader)
@@ -90,7 +104,8 @@ for item in Parameters:
             else:
                 img = Sheet.crop((xOffset,yOffset,xOffset+x,yOffset+y))
                 xOffset += x
-            img = replaceColor(img)
+            for color in ScrubbedColors:
+                img = replaceColor(img,color)
             FolderPath = "Outputs/"+itemName+"_"+str(x)+"x"+str(y)+".rsi"
             tryCreateNestedDir(FolderPath)
             img.save(FolderPath+"/"+stateName+".png")
@@ -147,7 +162,7 @@ shutil.make_archive("sprites", 'zip', "Outputs")
 #                     img = removeAlpha(img)
 
 #                     if os.path.isfile((templateDirectorName+"/equipped-"+clothingJson["type"]+"_bits-mask.png")):
-#                         bits = replaceColor(Image.new(("RGBA"),(64,64)),(0,0,0,0),(averageCamoColor))
+#                         bits = replaceColor(Image.new((""),(64,64)),(0,0,0,0),(averageCamoColor))
 #                         maskBits = Image.open(templateDirectorName+"/equipped-"+clothingJson["type"]+"_bits-mask.png")
 #                         shadingBits = Image.open(templateDirectorName+"/equipped-"+clothingJson["type"]+"_bits-shading.png")
 #                         bits = overlayImg(bits,maskBits)
@@ -162,7 +177,7 @@ shutil.make_archive("sprites", 'zip', "Outputs")
 #                     bothSprite = overlayImg(backSprite,frontSprite)
 
 #                     #icon
-#                     icon = Image.new("RGBA",(32,32))
+#                     icon = Image.new("",(32,32))
 #                     offset = (
 #                         clothingJson["frontAnchor"][0]-clothingJson["iconOffset"][0],
 #                         clothingJson["frontAnchor"][1]-clothingJson["iconOffset"][1]
@@ -171,7 +186,7 @@ shutil.make_archive("sprites", 'zip', "Outputs")
 #                     icon.save(outputsDirectoryName+"/icon"+".png")
 
 #                     #inhand-left
-#                     inhandLeft = Image.new("RGBA",(64,64))
+#                     inhandLeft = Image.new("",(64,64))
 #                     for direction in clothingJson["inhandLeftOffset"]:
 #                         if direction[2] == "front":
 #                             offset = (
@@ -195,7 +210,7 @@ shutil.make_archive("sprites", 'zip', "Outputs")
 #                     inhandLeft.save(outputsDirectoryName+"/inhand-left"+".png")
                     
 #                     #inhand-right
-#                     inhandRight = Image.new("RGBA",(64,64))
+#                     inhandRight = Image.new("",(64,64))
 #                     for direction in clothingJson["inhandRightOffset"]:
 #                         if direction[2] == "front":
 #                             offset = (
